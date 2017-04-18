@@ -16,5 +16,5 @@ List = RssToList("http://showrss.info/user/132011.rss?magnets=true&namespaces=tr
 
 for i in List:
 	print i
-print List.sort(key=lambda x: datetime.datetime.strptime(dateutil.parser.parse(x[2])), '%Y-%m%d %H-%M-%S')
+#print List.sort(key=lambda x: datetime.datetime.strptime(dateutil.parser.parse(x[2])), '%Y-%m%d %H-%M-%S')
 
